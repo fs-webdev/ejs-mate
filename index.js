@@ -68,6 +68,8 @@ function compile(file, options, cb) {
     options.locals = {};
   }
 
+  options.__proto__ = options.locals;
+
   if (!options.locals.blocks) {
     // one set of blocks no matter how often we recurse
     var blocks = {};
@@ -94,6 +96,8 @@ function renderFile(file, options, fn){
   if (!options.locals) {
     options.locals = {};
   }
+
+  options.__proto__ = options.locals;
 
   if (!options.locals.blocks) {
     // one set of blocks no matter how often we recurse
