@@ -5,9 +5,9 @@
     "Robert Sköld <robert@publicclass.se> (http://publicclass.se)",
     "Tom Carden <tom@tom-carden.co.uk>"
   ],
-  "name": "ejs-mate",
+  "name": "@fs/ejs-mate",
   "description": "Express 4.x locals for layout, partial.",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/JacksonTian/ejs-mate.git"
